@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 public class TeenageHood {
-    public void startGame() {
+    public static void startGame() {
         System.out.println("You are a Teenager!");
         System.out.println("You will have to make important decisions that will shape your life!");
         System.out.println("Choose from a list of options 2 times a day for 5 days to influence your "
@@ -20,7 +20,7 @@ public class TeenageHood {
         String[] intelligence = {"Dull", "A Bit Slow", "Average", "Smart", "Brilliant"}; //0-4 indices from dull to brilliant
         int moneyCount = 0, //start broke
             moodCount = 4, //start happy
-            healthCount = 2, //start healthy
+            healthCount = 2, //start with no complications
             intelligenceCount = 0; //start dull
         int day = 1;
         System.out.println("Current Status:" + '\n' + "Day " + day);
