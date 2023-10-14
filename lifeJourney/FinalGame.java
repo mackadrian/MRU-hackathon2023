@@ -1,7 +1,5 @@
 package lifeJourney;
 
-//import java.util.Scanner;
-
 public class FinalGame {
 
     public static void main(String[] args) {
