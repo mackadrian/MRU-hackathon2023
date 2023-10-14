@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MultipleChoice {
 	
-	public void MultipleChoice() {
+	public void startGame() {
 		
 		Scanner userInput = new Scanner(System.in);
 		String[] answers = {"A", "C", "D", "B", "D", "A", "B", "D", "A"};
