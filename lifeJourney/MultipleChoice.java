@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class MultipleChoice {
 	
-	public void startGame(){
+	public void MultipleChoice() {
 		
 		Scanner userInput = new Scanner(System.in);
-		String[] answers = {"A", "C", "D", "B", "D", "A", "D", "A", "B"};
+		String[] answers = {"A", "C", "D", "B", "D", "A", "B", "D", "A"};
 		String[] userResponses = {"", "", "", "", "", "", "", "", "", ""};
 		
 		System.out.println("You have grown up and have entered childhood!");
@@ -19,8 +19,8 @@ public class MultipleChoice {
         System.out.println(" A) " + " B) " + " C) " + " D) " + '\n');
         
         System.out.println("--English Vocabulary--");
-        System.out.println("What is the correct synonym for the following:" + '\n');
         
+        System.out.println("1. What is the correct synonym for the following:" + '\n');
         System.out.println("1. Smile");
         System.out.println("A) Grin");
         System.out.println("B) Scream");
@@ -28,18 +28,18 @@ public class MultipleChoice {
         System.out.println("D) Frown");
         userResponses[0] = userInput.next();
         
-        System.out.println("2. Jump");
-        System.out.println("A) Crouch");
-        System.out.println("B) Walk");
-        System.out.println("C) Leap");
-        System.out.println("D) Run");
+        System.out.println("2. ___ are coming to my birthday! ");
+        System.out.println("A) It");
+        System.out.println("B) Them");
+        System.out.println("C) They");
+        System.out.println("D) That");
         userResponses[1] = userInput.next();
         
-        System.out.println("3. Learn");
-        System.out.println("A) Quiet");
-        System.out.println("B) Lose");
-        System.out.println("C) Speak");
-        System.out.println("D) Grasp");
+        System.out.println("3. Which word is the contraction of each other?");
+        System.out.println("A) Its - it is");
+        System.out.println("B) Can't - could not");
+        System.out.println("C) Doesn't - do not");
+        System.out.println("D) You're - you are");
         userResponses[2] = userInput.next();
         
         System.out.println("--General Science--");
@@ -65,27 +65,28 @@ public class MultipleChoice {
         System.out.println("D) -100");
         userResponses[5] = userInput.next();
         
-        System.out.println("--Mathematics--");
         
-        System.out.println("7. 10 + 12 =");
-        System.out.println("A) 0");
-        System.out.println("B) 2");
-        System.out.println("C) 16");
-        System.out.println("D) 22");
+        System.out.println("--Geography--");
+        
+        System.out.println("7. What is the capital of Canada?");
+        System.out.println("A) Toronto");
+        System.out.println("B) Ottawa");
+        System.out.println("C) Montreal");
+        System.out.println("D) Calgary");
         userResponses[6] = userInput.next();
         
-        System.out.println("8. 12 / 4 = ");
+        System.out.println("8. How many continents are there in the world?");
         System.out.println("A) 3");
-        System.out.println("B) 1");
-        System.out.println("C) 2.5");
-        System.out.println("D) 4");
+        System.out.println("B) 8");
+        System.out.println("C) 5");
+        System.out.println("D) 7");
         userResponses[7] = userInput.next();
         
-        System.out.println("9. 12 x 0 = ");
-        System.out.println("A) -5");
-        System.out.println("B) 0");
-        System.out.println("C) 12");
-        System.out.println("D) 1");
+        System.out.println("9. What is the biggest ocean in the world?");
+        System.out.println("A) Pacific Ocean");
+        System.out.println("B) Indian Ocean");
+        System.out.println("C) Atlantic Ocean");
+        System.out.println("D) Arctic Ocean");
         userResponses[8] = userInput.next();
         
         System.out.println("How did you do?");
