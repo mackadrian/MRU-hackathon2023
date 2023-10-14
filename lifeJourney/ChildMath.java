@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ChildMath {
 	
-	public static void mathGame() {
+	public static void startGame() {
 		
 		Random rand = new Random();
 		String[] operations = {"+", "-", "*", "/"};
@@ -21,8 +21,7 @@ public class ChildMath {
 		int wrong = 0;
 				
 		System.out.println("Solve the following Math Problems!");
-		System.out.println("Get 5/8 Answers Right to Advance");
-		System.out.println("");
+		System.out.println("Get 5/8 Answers Right to Advance" + '\n');
 		
 		while(right < 5) {
 			
@@ -111,8 +110,7 @@ public class ChildMath {
 					wrong = 0;		
 					System.out.println("");
 					System.out.println("");
-					System.out.println("*** Game Over, Back to Square One ***");
-					System.out.println("");
+					System.out.println("*** Game Over, Back to Square One ***" + '\n');
 				}
 				
 			}
@@ -122,11 +120,10 @@ public class ChildMath {
 			}		
 			System.out.println("");
 		}	
-		scan.close();
+		//scan.close();
 		
 		System.out.println("");
-		System.out.println("*** Congratulations, You have Passed this Minigame ***");
-		System.out.println("");
+		System.out.println("*** Congratulations, You have Passed this Minigame ***" + '\n');
 	}
 		
 

@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 public class MatchTheShape {
 
-    public void startGame() {
-        System.out.println("You are a Toddler");
-        System.out.println("Starting Game: Match the Shape..." + '\n');
+    public static void startGame() {
+
         System.out.println("Let's match the symbol!");
         System.out.println("Type in the number that's below the matching symbol!" + '\n');
         System.out.println(" A  " + " B " + "  C ");
@@ -50,7 +49,7 @@ public class MatchTheShape {
                 System.out.println("That's not a number! Exiting...");
             }
         }
-        userInput.close();
+        //userInput.close();
 
         if (correctShape == true) {
             System.out.println("Congratulations!");
