@@ -1,4 +1,4 @@
-package game;
+package lifeJourney;
 
 import java.util.Random;
 import java.util.Scanner;
