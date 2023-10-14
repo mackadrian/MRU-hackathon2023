@@ -5,13 +5,6 @@ import java.util.Scanner;
 
 public class ChildMath {
 	
-	public static void main(String[] args) {
-		
-		mathGame();
-		
-	}
-	
-	
 	public static void mathGame() {
 		
 		Random rand = new Random();
