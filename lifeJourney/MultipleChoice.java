@@ -83,7 +83,7 @@ public class MultipleChoice {
         System.out.println("D) -100");
         userResponses[8] = userInput.next();       
         
-        
+        System.out.println("");
         System.out.println("How did you do?");
         int score = 0;
         for (int i = 0; i < 9; i++) {
